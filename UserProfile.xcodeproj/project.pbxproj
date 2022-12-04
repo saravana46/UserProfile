@@ -14,7 +14,6 @@
 		18BE9AF5293BCE8400EDE249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE9AF3293BCE8400EDE249 /* LaunchScreen.storyboard */; };
 		18BE9B05293BD13A00EDE249 /* UsersViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE9B04293BD13A00EDE249 /* UsersViewModels.swift */; };
 		18BE9B07293BD15400EDE249 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE9B06293BD15400EDE249 /* UsersModel.swift */; };
-		18BE9B09293BD17000EDE249 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE9B08293BD17000EDE249 /* APIServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		18BE9AF6293BCE8400EDE249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BE9B04293BD13A00EDE249 /* UsersViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModels.swift; sourceTree = "<group>"; };
 		18BE9B06293BD15400EDE249 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
-		18BE9B08293BD17000EDE249 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 		18BE9AE7293BCE8300EDE249 /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
-				18BE9B03293BD0C400EDE249 /* WebService */,
 				18BE9AFD293BCEE900EDE249 /* CommonFiles */,
 				18BE9AFC293BCEE100EDE249 /* MVVM */,
 			);
@@ -127,14 +124,6 @@
 				18BE9AEC293BCE8300EDE249 /* ViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		18BE9B03293BD0C400EDE249 /* WebService */ = {
-			isa = PBXGroup;
-			children = (
-				18BE9B08293BD17000EDE249 /* APIServices.swift */,
-			);
-			path = WebService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +201,6 @@
 				18BE9AED293BCE8300EDE249 /* ViewController.swift in Sources */,
 				18BE9B07293BD15400EDE249 /* UsersModel.swift in Sources */,
 				18BE9AE9293BCE8300EDE249 /* AppDelegate.swift in Sources */,
-				18BE9B09293BD17000EDE249 /* APIServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +365,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -404,7 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
